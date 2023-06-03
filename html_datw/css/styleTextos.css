@@ -1,0 +1,87 @@
+.contenedor{
+    width: 60%;
+    margin: auto;
+}
+.tituloP{
+    color: darkgray;
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px 0;
+}
+/*justifica el parrafo pero la ultima linea esta alineada a la derecha*/
+.parrafo1{
+    text-align: justify;
+    text-align-last: right;
+}
+/*escribe de derecha a izq*/
+.loca{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+/* Alineación vertical*/
+.img1{
+    vertical-align: baseline;/*normal*/
+}
+.img2{
+    vertical-align: text-top;/*arriba del texto*/
+}
+.img3{
+    vertical-align: text-bottom;
+}
+.img4{
+    vertical-align: sub;
+}
+.img5{
+    vertical-align: super;
+}
+/*Decoración del Texto text-decotation*/
+.p1{
+    text-decoration: overline;/*linea arriba*/
+    text-decoration-color:rgb(181, 180, 180) ;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px; /* grosor de linea*/
+}
+.p2{ 
+    text-decoration: line-through;/*linea en medio*/
+
+}
+.p3{
+     text-decoration: underline #d2d2d2 wavy 2px;/*linea abajo*/
+    }
+.p4{
+    text-decoration: overline underline;/* linea arriba y abajo*/
+}
+/* Eliminar la decoración implicita que tiene los enlaces*/
+.enlace1{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #969494;
+    margin: 10px 0;
+    color:black
+}
+/* Transformación del texto */ /* Espaciado del texto*/ /* sombra del texto*/
+.t1{
+    text-transform: uppercase;/* mayuscula*/
+    text-indent: 50px; /*crea un espacio antes como tabulador*/
+    text-shadow: 2px 2px;/* sombra del mismo color del texto*/
+}
+.t2{
+    text-transform: lowercase; /* minúscula*/
+    letter-spacing: 5px; /* especio entre letras*/
+    color:white;
+    text-shadow: 2px 2px 5px black; /*fondo desenfocado blur*/
+}
+.t3{
+    text-transform: capitalize; /*primera may y resto min*/
+    line-height: 5; /* altura de la linea, en medidas que van 0-x sin unidad */
+    text-shadow: 0 0 3px #ff0000;
+}
+.t4{
+    font-variant: small-caps; /* versalitas */
+    word-spacing: 10px;/*espacio entre palabras*/
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;/*varios colores de la sombra*/
+}
+
+
+
+

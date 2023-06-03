@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Irina Medina">
+    <meta name="keyword" content="html,programacion,desarrollo web">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Mi primera Web &#10032;</title>
+<style>
+    #elementoH1{ /*selector de id*/
+            font-size: 50px;
+            color:blueviolet;
+    }
+    .miclase{ /*selector de clase css*/
+        color:burlywood;
+        background-color: bisque;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    ol{/* selector tipo etiqueta **** cuidado, se aplica a todas las etiquetas */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+    }
+</style>
+
+
+</head>
+<body>
+
+    <!-- TITULOS EN HTML-->    
+    <h1 id="elementoH1" name="elementoH1" >Título: de nivel 1</h1>  
+    <h2>Título de nivel 2</h2>  
+    <h3>Título de nivel 3</h3>  
+    <h4>Título de nivel 4</h4>  
+    <h5>Título de nivel 5</h5>  
+    <h6>Título de nivel 6</h6> 
+    <p>hoy va a llover &#9730;</p>
+    <!--PARRAFOS-->
+    <p class="miclase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cumque quasi consequatur obcaecati sint numquam omnis nulla autem a veritatis, nemo quaerat aperiam eius et architecto eaque, vero aliquid optio?</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, pariatur nemo. Amet molestiae quaerat rerum fuga molestias nulla neque architecto, laboriosam et in alias vel reprehenderit doloribus! Eius, repudiandae maxime.</p>
+
+    <!-- ETIQUETA BLOCKQUOTE: frases extraidas de otro origen-->
+    <blockquote>“Trata bien a los frikis, algún día trabajarás para uno de ellos”</blockquote>
+
+    <!--LISTA NO ORDENADA -->
+    <ul class="miclase">
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>
+    </ul>
+
+    <ul type="square">
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>
+    </ul>
+    <ul type="circle">
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>
+    </ul>
+    <!--LISTA ORDENADA-->
+    <ol type="A">
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+        <li>Cuatro</li>
+    </ol>
+    <ol type="I" start="4">
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+        <li>Cuatro</li>
+    </ol>
+
+    <ol reversed>
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+        <li>Cuatro</li>
+    </ol>
+
+    <!--LISTA DE TÉRMINOS-->
+    <dl>  <!--Etiqueta que abre una lista de definiciones-->
+        <dt>&larr;HTML</dt> <!-- Termino a Definir-->
+            <dd> Lenguaje de Marcas que permite hacer Páginas Web </dd><!--Definición del Termino-->
+        <dt>&rarr;CSS</dt>
+            <dd>Lenguaje para darle estilo a las páginas WEB</dd>
+        <dt>&rarr;PHP</dt>
+            <dd>Lenguaje para conectar las paginas con un servidor y con bases de datos</dd>
+        <dt>&rarr;MySQL</dt>
+            <dd>Manejador de Bases de Datos</dd>
+    </dl>
+
+    <!--INSERTAR UNA DIRECCIÓN DE CONTACTO -->
+    <p>&#128506;Nos ubicar en la siguiente dirección:</p>
+    <address style="text-transform:uppercase; font-size: large; color:red; text-decoration:solid;font-style: normal;">
+        <p>Calle Nueva,81</p>
+        <p>Tomelloso. 13700. Ciudad Real</p>
+    </address>
+
+    <!-- TEXTO PREFORMATIADO-->
+    <p>PÁRRAFO</p>
+    <p>Esto es un párrafo               de prueba</p>
+    <p>TEXTO PREFORMATEADO</p>
+    <pre>
+       Esto es un párrafo              de prueba
+    </pre>
+
+    <!-- ETIQUETAS SIN CIERRE PARA SALTO DE LINEAS Y LINEA HORIZONTAL-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, <br>optio repudiandae laudantium ratione consectetur quod? Illum, a iure ab dolorem molestiae corrupti excepturi voluptatum quisquam, ut eveniet assumenda praesentium totam.</p>
+    <br> <!--Salto de linea manual-->
+    <hr style="border: 2px dotted orange" > <!--Linea horizontal-->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sapiente eveniet maiores ducimus. Libero, iusto tempore! Id minima at quas natus consequuntur. Aut architecto laboriosam nobis voluptatibus voluptatum repellat quam.</p>
+    <!--CATACTERES ESPECIALES Y DE ESCAPE-->
+    <p style="font-size:5rem;">&#128049;</p>
+    <pre>_______¶______________________________________¶¶¶_________
+    _______¶¶¶¶_________________________________¶¶¶¶¶_________
+    _______¶¶¶¶¶¶¶_____________________________¶¶¶¶¶¶_________
+    ________¶¶¶¶¶¶¶¶¶________________________¶¶¶¶¶¶¶¶_________
+    ________¶¶¶¶¶¶¶¶¶¶¶_____________________¶¶¶¶¶¶¶¶¶_________
+    _________¶¶¶¶¶¶¶¶¶¶¶¶__________________¶¶¶¶¶¶¶¶¶¶_________
+    _________¶¶¶¶¶¶¶¶¶¶¶¶¶________________¶¶¶¶¶¶¶¶¶¶¶_________
+    __________¶¶¶¶¶¶¶¶¶¶¶¶¶¶_____________¶¶¶¶¶¶¶¶¶¶¶__________
+    ___________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶___________¶¶¶¶¶¶¶¶¶¶¶__________
+    ____________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶__________¶¶¶¶¶¶¶¶¶¶¶__________
+    _____________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________¶¶¶¶¶¶¶¶¶¶¶___________
+    _______________¶¶¶¶¶¶¶¶¶¶¶¶¶¶_______¶¶¶¶¶¶¶¶¶¶¶___________
+    ________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_____¶¶¶¶¶¶¶¶¶¶____________
+    __________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶___¶¶¶¶¶¶¶¶¶¶¶____________
+    ____________________¶¶¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶¶¶¶_____________
+    ________________________¶¶¶¶¶¶¶¶¶¶_¶¶¶¶¶¶¶¶¶______________
+    ___________________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_______________
+    __________________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________________
+    ______________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_________________
+    ___________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________________
+    _________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_______________
+    ________________¶¶¶¶¶____¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶______________
+    _______________¶¶¶¶¶¶____¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶______________
+    ______________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_____________
+    ______________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_____________
+    ______________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_____________
+    ______________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶______________
+    ______________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶______________
+    ________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶______________
+    __________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶______________
+    ____________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶______________
+    ________________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_______________
+    _______________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_________________
+    _______________________¶¶¶¶¶¶__¶¶¶¶¶¶_____________________
+    ___________________¶¶¶__¶¶_¶¶__¶¶_____¶¶¶¶________________
+    ____________________¶¶¶¶¶¶¶¶¶¶_¶¶¶¶¶¶¶¶___________________
+    ____________________¶¶¶¶¶¶¶¶¶¶_¶¶¶________________________
+    ____________________¶¶____¶¶¶¶____________________________
+    ____________________________¶¶__________
+    </pre>
+    <!--ETIQUETAS DE TEXTOS CON VALOR SEMÁNTICO Y SIN VALOR SEMÁNTICO-->
+    <p>
+        Lorem ipsum dolor, sit amet <strong>mi texto con énfasis</strong> consectetur adipisicing elit. <b>negrita SIN valor semántico</b> iste facilis <em>cursiva con valor semántico</em> suscipit tempore asperiores a <i>cursiva SIN valor seántico</i>, veritatis nulla odio eligendi accusamus, dolores maxime, voluptates corrupti ducimus!
+
+    </p>
+    <!--INDICE Y EXPONENTE-->
+    <h3>H<sub>2</sub>O</h3>
+    <h3>mt<sup>2</sup></h3>
+    <p>Ver indice<sup>1</sup></p>
+    <p>2<sup>2</sup></p>
+    <p>3<sup>3</sup></p>
+    <p>4<sup>4</sup></p>
+    <p>5<sup>5</sup></p>
+    <!--SUBRAYADO SIN VALOR SEMÁNTICO-->   
+    <p>Lorem, ipsum dolor sit <u>este texto no es importante o tiene horrores hortográficos</u> amet consectetur adipisicing elit. Suscipit, consectetur facilis tempore repellat quos excepturi unde aperiam impedit ullam! Enim ratione facere architecto cumque amet modi ea cum odit delectus. Ver Indice<sup>1</sup></p>
+    <!--TEXTO TACHADO-->
+    <p>Lorem ipsum dolor sit <s> amet consectetur, adipisicing elit.</s> Itaque nemo ipsum fuga repellat, optio perferendis, voluptate iure saepe alias recusandae sunt et ipsa, similique accusantium sit totam repellendus quaerat dolores!</p>
+    
+    <!--CITAS Y FRASES DE REFERENCIA DE LA CITA-->
+    <p>El gran <cite>Gandhi</cite> tiene como frase mas famosa <q>"No hay camino hacia la paz, la paz es el camino"</q></p>
+
+    <!--TEXTOS A ELIMINAR O A INSERTAR-->
+    <p title="mi parrafo">Lorem ipsum dolor sit amet <ins>insertar nuevo texto</ins>. Placeat adipisci necessitatibus laborum nemo excepturi nihil praesentium, exercitationem, fugiat quam doloremque <del>eliminar el texto</del> consequatur repudiandae sunt saepe delectus? Quisquam repellendus tenetur dolores?</p>
+
+    <!--ABREVIATURA-->
+    <abbr title="Hypertext Markup Language">HTML</abbr>
+    <br>
+    <!-- ETIQUETA ESPECIAL PARA MOSTRAR CODIGO DE LENGUAJE DE PROGRAMACION-->
+    <code> 
+         if (a>b){<br>
+            a=5;<br>
+         }
+    </code>
+    <!-- ETIQUETA PARA UNA VARIABLE MATEMÁTICA O INFORMATICA-->
+    <br>
+    <var>a</var>
+    <br>
+    <var>nombre</var>
+    <!--ETIQUETA PARA MARCAR EL CODIGO TIPO RESALTADOR-->
+    <p>Lorem ipsum dolor sit amet consectetur <mark>adipisicing elit. Maxime ullam aut nemo id repudiandae accusantium sunt odit expedita ex error voluptates, reprehenderit dolor hic ut</mark> perferendis quas facilis commodi exercitationem?</p>
+
+    <!--MOSTRAR DETALLES-->
+    
+    <details>  
+        <summary>Dirección de la surcursal 1</summary>  
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur totam magni laborum numquam aperiam facilis quis ea, sapiente, atque suscipit incidunt tempora? Velit, optio perferendis quidem dignissimos aut quia pariatur?</p>  
+    </details>  
+
+    <!--IMPORTANTE: ENLACES ENTRE PAGINAS EXTERNAS HE INTERNAS-->
+    <!--  Los link importente en las páginas web
+    
+        1- Me crean enlaces externos (a otra url, si la url es externa: https://google.es)
+        2. Puedes crear enlaces internos en la mismo proyecto, por eje: del index.html  enlazar con contacto.html
+        3. Puedo crear enlaces en la misma página. Ejem, del pie de pagina enlazar con el header
+    -->
+    <!-- Ejemplo 1. Enlaces a páginas externas - lo recomendable es usar la url completa-->    
+    <a href="https://google.es" title="IR A Google" target="_blank" >Voy a ir a la pagina de Google</a>
+    <br>
+    <!-- Ejemplo 2. Crear enlaces internos, -->
+    <a href="segundo.html" title="Segunda Página"  target="_blank">Ir a un enlace del proyecto</a>
+    <br>
+    <!-- Ejemplo 3. Crear enlaces en la misma pagina, utilizando como atributo de llamada el id -->
+    <a href="#elementoH1" title="IR al H1">IR al H1</a>
+    <!--id    elementoH1    encabezadoPaginaPrimera-->
+    <!--name  elementoH1    encabezadoPaginaPrimera-->
+    <br>
+    <a href="#">Recargar la página</a>
+    <br>
+    <a href="pruebas/tercero.html">Tercer Html</a>
+    <br>
+    <a href="../+Cotas/index.html">Mis mascotas</a> <!-- con ../ subimos un nivel en el directorio o carpeta-->
+    <br>
+    <!--Enlace a un archivo-->
+    <a href="etiquetas-html.pdf" target="_blank">Mostrar todas las etiquetas HTML</a>
+    <br>
+    <a href="img/favicon.png" target="_blank">Mostrar mi favicon</a>
+    <br>
+    <a href="archivo-prueba.docx" target="_blank">Enlace a un archivo Word</a>
+    <br>
+    <!--Enlace para enviar Correo Electrónico-->
+    <a href="mailto:irinadvalle@gmail.com" title="Enviar Correo">Envia Email</a>
+    <br>
+    <!--Enlazar un pagina a traves de una imagen
+    La estructura es muy sencilla:
+    El enlace <a> utiliza el atributo href para indicar la URL de destino.
+    El contenido del enlace <a> es una imagen <img> que tiene su atributo src para indicar el origen de la imagen.
+    -->
+    <a href="pruebas/tercero.html"><img src="img/favicon.png"></a>
+<!--PIE DE PAGINA CON TEXTO TIPO INDICES-->
+    <!--PIE DE GINA CON TEXTO TIPO INDICES-->
+    <footer>
+    <!-- EL ATRIBUTO TITLE SE PUEDE ESCRIBIR EN CASI TODAS LAS ETIQUETAS-->
+    <h2 title="Indice">Indice</h2>
+    <sup>1</sup><small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi esse eveniet quas eius, veniam quos hic magnam dolore repellendus amet aut atque quo, porro magni. Consequuntur eum voluptatibus officia distinctio?</small>
+</footer>
+</body>
+</html>

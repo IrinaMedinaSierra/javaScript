@@ -1,0 +1,87 @@
+
+.contenedor{
+    width: 50%;
+    margin: auto;
+    border: 1px dotted grey;
+}
+ul{
+    border: 1px dotted grey;
+    width: 25%;
+    margin: 25px auto;
+    padding: 25px;
+}
+/** indicar un estilo pasando la posicion de la lista*/
+.lista1 li:nth-child(2){
+background-color: darkblue;
+color:aliceblue
+}
+
+.lista2 {
+    list-style: square;
+    color: goldenrod;
+}
+.lista3 {
+    list-style:  inside url("../img/done.png");
+
+}
+.lista3 li:nth-child(3){
+    list-style: outside url("../img/x.png");
+}
+
+.tabla,.tabla2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+.tabla td, .tabla th{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.tabla th{
+    background-color: aquamarine;
+    padding:12px 0;
+    text-align: center;
+    color: darkcyan;
+}
+
+/* Par - even  Impar - odd */
+.tabla tr:nth-child(even){
+    background-color: rgba(127, 255, 212, 0.375);
+}
+.tabla tr:nth-child(odd){
+    background-color: rgba(214, 221, 218, 0.375);
+}
+
+.tabla td{
+    text-align: center;
+}
+.tabla tr:hover{
+    background-color: #ddd;
+}
+
+.tabla2 tr{
+    border-bottom: 1px dotted gray;
+    text-align: center;
+}
+.tabla2 td, .tabla2 th{
+      padding: 15px 0;
+}
+.tabla3{
+    border:1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 3px #ccc;
+    width: 80%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabla3 td,.table3 th{
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tabla3 tr th{
+    padding: 15px 0;
+}

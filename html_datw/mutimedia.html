@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos multimedia</title>
+    <style>
+        #video2{
+            width: 574px;
+            height: 435px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Videos en HTML</h1>
+    <!--Vídeo directamente de un archivo en mi proyecto
+    Atributos:
+    autoplay: se reproduce automaticamente
+    controls: proporcionar medios de control sobre el vídeo
+    preload: preload="auto" 
+            auto, descargar los datos para precargar lo mejor posible el video
+            metadata:especifica al navegador que es necesario descargar los metadatos del vídeo para tener la información técnica adecuada: dimensión, duración, etc.
+            none: indica que no hay que precargar el archivo de vídeo. Por lo tanto, el navegador no tendrá ninguna información técnica del archivo, ni dimensión, ni duración, ni ninguna otra información, etc.
+    width y height-> es preferible hacerlo desde la fuente, pero la etiqueta video la permite
+    loop: para que el vídeo se reproduzca en bucle
+    muted: para desactivar el sonido.
+    poster: muestra una imagen antes que cargue el video.
+    *Observación: Los navegadores no autoreproducen el video al menos que le indiques que es muted, o esta desactivado el sonido.
+-->
+    <video src="video/video-canta2.webm"  autoplay controls preload="auto" width="500" loop muted></video>
+  
+    <!--Video de varios origenes o formatos-->
+ 
+    <video controls poster="img/cachorro-negro-sin-fondo.webp" id="video2">
+        <source src="video/video-canta2.webm">
+        <source src="video/video-canta2.mp4">
+    </video>
+
+    <h2>Vídeo de Iframe: inserta un elmento en la página</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ujNeHIo7oTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h2>Archivos de audio</h2>
+    <!--Atributos:
+        src: donde se ubica el archivo
+
+    -->
+    <audio src="audio/la-linterna-con-exposito.mp3" controls autoplay preload="auto" loop></audio>
+
+</body>
+</html>

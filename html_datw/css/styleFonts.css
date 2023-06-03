@@ -1,0 +1,59 @@
+section{
+    width: 70%;
+    margin: auto;
+}
+
+.t1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    font-size: 12px;
+}
+.frase{
+    font-style: oblique; /* cursiva ligeramente fuerte*/
+    font-weight: bold;/* fuerza o peso de la fuente*/
+    font-size: 18px;
+}
+.frase2{
+   /* font-size: 10vw; /* ventana del navegador*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+/*Archivo externo de fuentes*/
+.icono1{
+    color:white;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+a{
+     text-decoration: none; 
+     padding: 25px;
+     color:black;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-variant: small-caps;
+     letter-spacing:  2px;
+    
+
+}
+/*n enlace cuando el usuario pasa el mouse sobre él*/
+a:hover{
+    background-color: black;
+    color:white;
+    text-decoration: underline  wavy white;
+    letter-spacing:  5px;
+    
+}
+.menuP{
+    background-color: lightgray;
+}
+.menu{
+    list-style: none;
+    display:flex;      
+}
+
+.menu li{
+    padding: 25px;
+    width: 150px;
+}

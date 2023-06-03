@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../Html"
+		},
+		{
+			"path": "../+Cotas"
+		},
+		{
+			"path": "../juegoSumar"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html_datw"
+	}
+}

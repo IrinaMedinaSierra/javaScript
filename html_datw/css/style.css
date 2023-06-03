@@ -1,0 +1,103 @@
+/* Los comentarios se hacen con barra y asteriscos*/
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+  
+    background-color: #84979562;
+    background-image: url("../img/cachorro-pensativo.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.izquierda{
+    text-align: left;
+    color: rgba(8, 23, 18, 0.386);
+}
+.my-header{
+    color:#D9EEE1
+}
+
+.texto-centrado{
+    text-align: center;
+}
+.bloque-centrado{ 
+    width: 75%;
+    /*borde tiene 3 propiedades: ancho, forma, color*/
+  /*Ejemplo de borde con atributo valor independientes
+    border-width: 2px;
+    border-style: inherit;
+    border-color: antiquewhite;
+    Poner borde con todos los valores en una sola linea
+    border: 2px solid black;
+    */
+    border-top : 2px ridge  rgb(172, 170, 170);
+    border-bottom: 2px solid rgb(96, 141, 96);
+    border-left:  2px groove rgb(95, 135, 95);
+    border-right:  2px inset rgb(73, 90, 73);
+
+    background-color:rgb(172, 170, 170) ;
+    /* Hacer que las esquinas esten redondeadas*/
+    border-radius: 25px 0px 25px 0px;
+}
+.parrafo-borde-izq{
+    border-left: 8px solid green;
+}
+.bloque-centrado-sborde{
+    width: 75%;
+    /* Para centrar un bloque horizontalmente div header footer section*/
+    margin: auto;
+}
+.bloque-opaco{
+    background-color: rgba(54, 86, 54, 0.3);
+}
+
+.bloque{
+    width: 250px;
+    height: 250px;
+    background-image: url("../img/cachorro-negro.jpg");
+    background-size: cover;
+    border: 2px solid black;
+    margin:25px auto;
+    opacity: 0.8;
+}
+.boton{
+    padding: 10px 45px;
+    width: 250px;    
+   /*  box-sizing: border-box;*/
+}
+.ex2 {
+    width: 300px;
+    padding: 55px 50px;
+    height: 300px;
+    background-color: lightblue;
+  }
+  .ancho-largo{
+    margin:50px;
+    max-width: 250px;
+    height: 250px;
+    background-color: rgba(240, 255, 255, 0.8);
+    border:1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    outline: 1px solid grey;
+    outline-offset:10px;
+    text-align: justify;
+    
+     }
+
+     .texto{
+        text-align: justify;
+        
+     }
+     .texto-resaltado{
+        text-decoration: underline overline ;
+     }
+
+  .estilo-enlaces{
+    text-decoration: none;
+    color: #D9EEE1;
+    background-color: black;
+  }

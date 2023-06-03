@@ -1,0 +1,29 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: white;
+    float: left;
+}
+
+#caja1{
+    background-image: linear-gradient(white,yellow);
+    border: 1px solid yellow;
+}
+
+#caja2{
+    background-image: linear-gradient(to right, yellow,blue);
+}
+#caja3{
+    background-image: linear-gradient(to bottom right, yellow, blue);
+}
+#caja4{
+    background-image: linear-gradient(yellow,green, blue);
+}
+#caja5{
+    background-image: radial-gradient(yellow,white);
+    border-radius: 100px;
+}
+#caja6{
+    background-image: linear-gradient(to left,yellow,blue,green,pink,red );
+}

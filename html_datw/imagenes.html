@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes en HTML</title>
+    <style>
+        #cachorro1,#cachorro2,#gatito1,.galeria{
+            border: 2px solid grey;
+            width: 250px;
+            margin: 20px; 
+         
+
+           /* opacity: 0.5; su valor esta entre 0 y 1, 0 lo oculta y 1 se ve tal cual es */
+        }
+        #bloque1,figure{
+            padding: 15px;
+            border: 1px dotted lightblue;
+            width: 50%;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+   <h1>Imágenes en HTML</h1>
+    <!--Atributos de las imagenes
+    alt: texto identificativo para cuando no se encuentra la imagen y para la accesibilidad
+    width: ancho de la imagen
+    heigth: alto de la imagen
+    -->
+    <img src="img/cachorro-negro-sin-fondo.webp" alt="Cachorro negro con cara feliz" id="cachorro1" >
+    <img src="img/cachorro-pensativo.webp" alt="Foto de cachorro pensativo" id="cachorro2">
+    <div id="bloque1">
+        <p>Bloque para separar las imagenes </p>
+        <img src="img/gato-aseandose.webp" alt="Gatito aseandose" id="gatito1">
+    </div>
+    
+<figure>
+        <figcaption>Mascotas graciosas</figcaption>
+        <img src="img/gato-aseandose.webp" alt="Gatito aseandose" class="galeria">
+        <img src="img/gato-jugando.webp" alt="Gatito jugando" class="galeria">
+        <img src="img/cachorro-pensativo.webp" alt="Cachorro pensativo" class="galeria">
+</figure>
+
+
+</body>
+</html>
